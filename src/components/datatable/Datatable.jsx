@@ -2,6 +2,7 @@ import './datatable.scss'
 import { DataGrid } from '@mui/x-data-grid'
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
+import ModalBtn from '../modal/ModalBtn'
 
 const Datatable = ({ rows, columns, title }) => {
   const [data, setData] = useState([])
@@ -25,17 +26,13 @@ const Datatable = ({ rows, columns, title }) => {
             <Link to='/users/test' style={{ textDecoration: 'none' }}>
               <div className='viewButton'>View</div>
             </Link>
-            <div
-              className='deleteButton'
-              onClick={() => handleDelete(params.row.id)}
-            >
-              Delete
-            </div>
+            <ModalBtn handleDelete={handleDelete} params={params} />
           </div>
         )
       },
     },
   ]
+
   return (
     <div className='datatable'>
       <div className='datatableTitle'>

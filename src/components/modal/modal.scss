@@ -1,0 +1,51 @@
+.btns {
+  display: flex;
+  margin-top: 1rem;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+
+  .cancelBtn {
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: #cf0300;
+    }
+  }
+  .deleteBtn {
+    background-color: #3656f4;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: #001ae2;
+    }
+  }
+}
+
+.modalBtn {
+  background-color: #ff3535;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: #db0400;
+  }
+}

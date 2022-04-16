@@ -5,9 +5,8 @@ import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined
 import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits'
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket'
 import AllInboxIcon from '@mui/icons-material/AllInbox'
-import QueryStatsIcon from '@mui/icons-material/QueryStats'
+import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined'
 import NotificationsActiveOutlinedIcon from '@mui/icons-material/NotificationsActiveOutlined'
-
 import AccountBoxOutlinedIcon from '@mui/icons-material/AccountBoxOutlined'
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined'
 import { Link } from 'react-router-dom'
@@ -56,8 +55,8 @@ const Sidebar = () => {
           </li>
           <p className='title'>USEFUL</p>
           <li>
-            <QueryStatsIcon className='icon' />
-            <span>Stats</span>
+            <ChatBubbleOutlineOutlinedIcon className='icon' />
+            <span>Messages</span>
           </li>
           <li>
             <NotificationsActiveOutlinedIcon className='icon' />

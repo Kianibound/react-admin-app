@@ -241,8 +241,8 @@ export const productRows = [
     id: 10,
     productName: 'lenovo',
     img: 'https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-    category: '10snow@gmail.com',
-    status: 'laptop',
+    category: 'laptop',
+    status: 'In stock',
     price: '$400',
   },
 ]

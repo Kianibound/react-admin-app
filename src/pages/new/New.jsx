@@ -12,7 +12,7 @@ const New = ({ title, inputs }) => {
   useEffect(() => {
     setInputData(inputs)
     setFormTitle(title)
-  }, [inputs, title])
+  }, [inputData, title])
 
   return (
     <div className='new'>
